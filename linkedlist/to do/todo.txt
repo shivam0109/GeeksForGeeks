@@ -1,0 +1,23 @@
+Linked List and Recursion - Look through every example to see if recursion can be used
+Recursion to add two numbers represented by linkedlist. Most significant node is first node and least significant digit is last node and we are not allowed to modify the lists
+Merge sort for LinkedList
+Reverse linked list in groups of given sizes java6
+Reverse alternate K nodes in a Singly Linked List
+Flattening a linked list
+Sort a linkedlist of 0s,1s and 2s : Count number of 0s,1s and 2s.
+Sort on LinkedList
+Given a linkedlist of line segments remove middle points Microsoft Interview
+Clone a linked list with random and next pointer. Each node has 2 ptrs, one random ptr and other next ptr. 
+Flatten a multilevel linked list. 
+Point arbit pointer to greatest value right side node in a linked list. 
+
+
+Hard 
+Detect and remove loop in linkedlist. 
+Point to next higher value node in a linked list with an arbitrary pointer. Given singly linked list with every node having an additional “arbitrary” pointer that currently points to NULL. Need to make the “arbitrary” pointer point to the next higher value node.
+HINT : use merge sort on arbit ptr 
+
+Medium
+Find a triplet from 3 linked list with sum equal to a given number. 
+Rearrange the linked list in the form a<b>c<d>e...
+

@@ -1,0 +1,4 @@
+1. Intro to heap
+2. max-heapify //maintaining heap prop 
+3. build max heap from array // n/2 se back jao and do max-heapify.  
+4. 

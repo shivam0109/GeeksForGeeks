@@ -1,0 +1,2 @@
+construct magic square
+lexicographic rank of a string in O(n). 

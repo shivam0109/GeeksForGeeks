@@ -1,0 +1,55 @@
+Techniques:
+Use Hashing
+Left and Right
+Sort the array
+DP
+Start from back
+if you have to calculate something excluding a particular number then calculate the result of left and right and operate on left and right. 
+
+Uses of Binary Search 
+a. Find element in O(lgn) 
+b. Return elements just smaller and just bigger in array
+c. Count number of occurences in sorted array
+d. First and last occurence of x in a sorted array. 
+e. Find max element in a bitonic array
+
+1. Find a subset of an array which is equal to a given sum. 
+
+2. Maximum difference between two elements such that larger element appears after the smaller number in O(n) time and O(1) space : 
+   Hint : Calculate difference of adjacent elements and now the problem becomes to find max sum subarray. 
+
+3. Find duplicates in O(n) time and O(1) space. 
+
+4. Given an array A of integers, find the maximum of j - i subjected to the constraint of A[i] <= A[j].
+
+5. Given a sorted array of n distinct integers where each integer is in the range from 0 to m-1 and m > n. Find the smallest number that is missing from the array in O(lgn) time. 
+
+6. Find the count of negative numbers in a matrix which is row-wise and column wise sorted. 
+
+7. Product array puzzle
+
+8. Sliding Window Maximum 
+
+9. Maximum Pdt Subarray
+
+10. Given arrays X and Y, count number of pairs s.t. x^y > y^x
+
+11. Median in a stream of integers
+
+12. Arrange numbers to form the biggest number. given numbers are {1, 34, 3, 98, 9, 76, 45, 4}, then the arrangement 998764543431 gives the largest value.
+
+13. Find max sum s.t np two elements are adjacent.
+
+14. The cost of a stock on each day is given in an array, find the max profit that you can make by buying and selling in those days. For example, if the given array is {100, 180, 260, 310, 40, 535, 695}, the maximum profit can earned by buying on day 0, selling on day 3. Again buy on day 4 and sell on day 6. If the given array of prices is sorted in decreasing order, then profit cannot be earned at all.
+Hint : See 2.
+
+15. Count smaller elements on the right side 
+
+16. Given a boolean 2D array, where each row is sorted. Find the row with the maximum number of 1s in O(m+n) time. return first max row. 
+
+17. Given an array A[] of n numbers and another number x, determine whether or not there exist three elements in A[] whose sum is exactly x.
+
+18. Find the two
+
+
+

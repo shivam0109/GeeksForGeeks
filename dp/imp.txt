@@ -1,0 +1,18 @@
+In DP, i-1.j-1 i,j-1, i-1,j are of utmost importance. For subset sum problems, use i,j-m and so on. 
+
+Edit Distance : if str1[i] == str2[j] -> i+1,j+1 -> mat[i-1][j-1]. REMEMBER start computation with empty string.
+
+coin change problem.
+
+0-1 knapsack. matrix of size n+1,W+1
+
+egg dropping puzzle. 
+
+ugly number : find nth ugly number : nth number whose factors are only 2,3 and 5. 
+
+Given three integers x,y and z you need to find the sum of all the numbers formed by 
+having 4 atmost x times , having 5 atmost y times and having 6 atmost z times as a digit.
+
+Given an array of integers where each element represents the max number of steps that can be made forward from that element. Write a function to return the minimum number of jumps to reach the end of the array (starting from the first element). If an element is 0, then cannot move through that element.
+
+

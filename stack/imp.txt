@@ -1,0 +1,30 @@
+A lot of problems in stack can be solved by first popping the elements and then pushing accordingly.
+
+Expression evaluation, questions concerning parenthesis can be solved by stacks.
+
+Infix expression to Postfix Expression.
+a op b -> a b op  
+Consider the below expression: a+b*c+d -> abc*+d+
+
+Implement two stacks in an array. Space Efficient: Do not divide array into a[0..n/2] and a[n/2+1..n]. What will happen is even if you have space in stack1, Stack overflow might occur for stack2. 
+Implement push and pop for both the stacks. 
+
+Stock span problem : Find number of consecutive elements smaller than the current element for every element in an array.
+
+reverse stack using recursion
+
+sort stack using recursion
+
+implement stacks using queue
+
+Celebrity problem in O(n) : Can be done without stacks in O(n) time and O(1) extra space.
+
+Hard 
+Efficient Implemention of k stacks in a single array. 
+
+
+To do
+Given an array, print the Next Greater Element (NGE) for every element. The Next greater Element for an element x is the first greater element on the right side of x in array. Elements for which no greater element exist, consider next greater element as -1. Time O(n). 
+Hint : From Solve Stock Span Problem. Reverse the array -> close to stock span problem.
+
+  
