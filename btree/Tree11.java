@@ -38,12 +38,16 @@ public class Tree11{
 	static boolean checkbalanced(Node root){
 		if(root == null)
 			return true;
-		else{
-			boolean flag = false;
-			if(height(root.left)-height(root.right)==0 || Math.abs(height(root.left)-height(root.right)==1))
-				flag = true;
-			return (checkbalanced(root.left) && checkbalanced(root.right) && flag);					
-		}			
+		// else{
+		// 	boolean flag = false;
+		// 	if(height(root.left)-height(root.right)==0 || Math.abs(height(root.left)-height(root.right)==1))
+		// 		flag = true;
+		// 	return (checkbalanced(root.left) && checkbalanced(root.right) && flag);					
+		// }
+		if(Math.abs(height(root.left)-height(root.right)) > 1)
+			return false;
+		else 
+			return (checkbalanced(root.left) && checkbalanced(root.right)) ;			
 	}		
 
 	public static void main(String[] args){
@@ -53,7 +57,7 @@ public class Tree11{
         tree.root.right = new Node(3);
         tree.root.left.left = new Node(4);
         tree.root.left.right = new Node(5);
-        //tree.root.left.left.left = new Node(8);
+        tree.root.left.left.left = new Node(8);
   		boolean ans = checkbalanced(tree.root);
   		System.out.println(ans);
 	}

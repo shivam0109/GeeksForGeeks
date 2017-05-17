@@ -1,0 +1,22 @@
+Important for Binary Trees : Use recursive call on left subtree and right subtree. 
+
+fun(root)-> fun(root.left), fun(root.right) 
+Most of the questions are solved by using 
+---> fun(root.left) + fun(root.right) 
+---> max(fun(root.left),fun(root.right)) 
+
+when we have to satisfy conditions a,b and c in recursion, do 
+---> return fun(a_true_flag && b_true_flag && c_true_flag) 
+
+1. bfs for tree (recursive and iterative) 
+2. Threaded tree
+3. Inorder tree traversal without recursion. (Using stack) 
+4. Diameter of a tree : Can be through root or not through root. If through root height(root.left) + height(root.right) + 1,
+   else max(diameter(root.left),diamter(root.right))
+5. Print all root to leaf paths one per line. 
+6. If two trees are identical. 
+7. Check if a tree is height balanced. 1 O(n2) solution and 2 O(n) solutions. 
+8. Find max width O(n) time O(n) space using queue. 
+9. Print Ancestors of a given node. 
+10. Build tree from given Inorder and Preorder traversals. 
+11. Find all possible interpretations of array of digits. 
