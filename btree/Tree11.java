@@ -38,12 +38,7 @@ public class Tree11{
 	static boolean checkbalanced(Node root){
 		if(root == null)
 			return true;
-		// else{
-		// 	boolean flag = false;
-		// 	if(height(root.left)-height(root.right)==0 || Math.abs(height(root.left)-height(root.right)==1))
-		// 		flag = true;
-		// 	return (checkbalanced(root.left) && checkbalanced(root.right) && flag);					
-		// }
+
 		if(Math.abs(height(root.left)-height(root.right)) > 1)
 			return false;
 		else 

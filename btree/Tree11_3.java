@@ -33,6 +33,7 @@ public class Tree11_3{
 
 		//Calculate height of node. 
 		height.h = 1 + Math.max(lheight.h,rheight.h);
+
 		System.out.println("root " + root.data + " Height " + height.h) ;
 		if(Math.abs(lheight.h-rheight.h)>=2)
 			return false;
