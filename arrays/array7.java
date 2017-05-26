@@ -2,7 +2,6 @@
 //Another one is of size n and contains n elements. 
 //Merge these two arrays into the first array of size m+n such that the output is sorted. Time : O(m+n)
 
-
 //move the NA elements to one side of the array and then use merge algorithm from merge sort to arrange
 //the elements in the bigger array. 
 import java.io.* ;

@@ -38,7 +38,7 @@ e. Find max element in a bitonic array
 
 12. Arrange numbers to form the biggest number. given numbers are {1, 34, 3, 98, 9, 76, 45, 4}, then the arrangement 998764543431 gives the largest value.
 
-13. Find max sum s.t np two elements are adjacent.
+13. Find max sum s.t no two elements are adjacent.
 
 14. The cost of a stock on each day is given in an array, find the max profit that you can make by buying and selling in those days. For example, if the given array is {100, 180, 260, 310, 40, 535, 695}, the maximum profit can earned by buying on day 0, selling on day 3. Again buy on day 4 and sell on day 6. If the given array of prices is sorted in decreasing order, then profit cannot be earned at all.
 Hint : See 2.

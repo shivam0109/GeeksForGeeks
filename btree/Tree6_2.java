@@ -24,11 +24,12 @@ public class Tree6_2{
 		}
 		Height lheight = new Height();
 		Height rheight = new Height();
-		lheight.h++ ;
-		rheight.h++ ;
+		int ldiameter = diameter(root.left,lheight) ;
+		int rdiameter = diameter(root.right,rheight) ;
+
 		height.h = 1 + Math.max(lheight.h,rheight.h) ;
-		System.out.println(height.h);
-		return Math.max(1+lheight.h+rheight.h,Math.max(diameter(root.left,lheight),diameter(root.right,rheight))) ;
+		System.out.println("Root " + root.data + " Height " + height.h);
+		return Math.max(1+lheight.h+rheight.h,Math.max(ldiameter,rdiameter)) ;
 	}
 	public static void main(String[] args){
 		Tree6_2 tree = new Tree6_2();

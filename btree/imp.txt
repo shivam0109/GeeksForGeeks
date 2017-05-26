@@ -20,3 +20,9 @@ when we have to satisfy conditions a,b and c in recursion, do
 9. Print Ancestors of a given node. 
 10. Build tree from given Inorder and Preorder traversals. 
 11. Find all possible interpretations of array of digits. 
+12. Find if a tree is foldable.
+13. Check if a tree is a sumtree in O(n) and constant space.
+    root.data = sum(all elements in left subtree) + sum(elements in right subtree) 
+14. Connect nodes at same level. 
+15. Check if a tree is complete or not - Iterative 
+To complete : 17,22,23 Check for String Input, Char input 
