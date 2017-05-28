@@ -4,10 +4,10 @@ import java.io.* ;
 import java.util.* ;
 
 public class Tree22{
-	Node root;
+	Node root ;
 	static class Node{
-		int data;
-		Node left,right,next ;
+		Node left,right,next;
+		int data; 
 		Node(int d){
 			data = d;
 			left = null;
@@ -15,55 +15,47 @@ public class Tree22{
 			next = null ;
 		}
 	}
-	static void levelOrder(Node root, Queue<Node> q){
-		Node curr,prev,temp ;
-		q.add(root);
-		int nodeCount = 0;
+	static void connectNodes(Node root, Queue<Node> q){
+		Node curr = root; 
+		q.add(curr) ;
+		int nodecount ; 
 		while(!q.isEmpty()){
-			nodeCount = q.size() ;
-			prev = q.peek() ;
-			while(nodeCount>0){
+			nodecount = q.size() ;
+			while(nodecount>0){
 				curr = q.poll() ;
-				if(nodeCount!=q.size())
-					prev.next = curr ;
-				
-				System.out.printf("%d ",curr.data);
-				
 				if(curr.left!=null)
-					q.add(curr.left);
+					q.add(curr.left) ;
 				if(curr.right!=null)
-					q.add(curr.right);
-				
-				nodeCount-- ;
-				prev = curr ;
+					q.add(curr.right) ;
+				if(nodecount!=1){
+					curr.next = q.peek() ;
+				}
+				nodecount--;	
 			}
-			System.out.printf("\n") ;
 		}
 	}
-	static void printNext(Node root){
-		if(root==null)
-			return;
-		printNext(root.left) ;							
-		System.out.printf("%d ", root.data) ;
-		if(root.next!=null)
-			System.out.println("root " + root.data + " next " + root.next.data);
-		printNext(root.right);
-
+	static void levelTraversal(Node root){
+		while(root!=null){
+			System.out.printf("%d ",root.data) ;
+			root = root.next ; 
+		}
+		System.out.printf("\n") ;
 	}
 	public static void main(String[] args){
-		Tree22 tree1 = new Tree22();
-		tree1.root = new Node(26);
-        tree1.root.right = new Node(3);
-        tree1.root.right.right = new Node(3);
-        tree1.root.left = new Node(10);
-        tree1.root.left.left = new Node(4);
-        tree1.root.left.left.right = new Node(30);
-        tree1.root.left.right = new Node(6);
+		Tree22 tree = new Tree22() ;
+		tree.root = new Node(1) ;
+		tree.root.left = new Node(2) ;
+		tree.root.right = new Node(3) ;		
+		tree.root.left.left = new Node(4) ;
+		tree.root.left.right = new Node(4) ;
+		tree.root.right.left = new Node(5) ;
+		tree.root.right.right = new Node(6) ;
 
-        Queue<Node> queue = new LinkedList<Node>() ;
-        levelOrder(tree1.root, queue) ;
-        printNext(tree1.root) ;
-        System.out.printf("\n") ;        
+		Queue<Node> q = new LinkedList<Node>() ;
+		
+		connectNodes(tree.root,q) 	;
+		levelTraversal(tree.root) ;
+		levelTraversal(tree.root.left) ;
+		levelTraversal(tree.root.left.left) ;
 	}
-
 }
