@@ -8,6 +8,9 @@ Most of the questions are solved by using
 when we have to satisfy conditions a,b and c in recursion, do 
 ---> return fun(a_true_flag && b_true_flag && c_true_flag) 
 
+To find number of edges between root and a given key, just find the height of given key. 
+
+
 1. bfs for tree (recursive and iterative) 
 2. Threaded tree
 3. Inorder tree traversal without recursion. (Using stack) 
@@ -28,7 +31,17 @@ when we have to satisfy conditions a,b and c in recursion, do
 16. Construct a special tree from preorder traversal. The tree has 0/2 children. Also another array of Nodes/Leaves is given. 
 17. Vertical sum in a tree. 
 18. Convert an arbitrary tree to a tree that holds children sum property. 
+19. Convert an arbitrary tree to a tree to its sum tree. 
+20. Binary Tree to Doubly Linked List and Circular Doubly Linked List in Inorder, Preorder and Postorder traversals.  
+21. Lowest Common Ancestor. 
+22. Distance b/w two keys. 
+23. Print all nodes which are at a distance of k from given node. 
+
+
+31,
 -----------------------------------------
 |Character input -> scr.next().charAt(0)|
-|                                       | 
+|Take Input of Tree                     | 
 -----------------------------------------
+
+
