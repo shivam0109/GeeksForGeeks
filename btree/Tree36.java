@@ -17,4 +17,14 @@ public class Tree36{
 		}
 	}
 	
+	static void printKBelow(Node root, int level, int k){
+		if(root==null || k<0)
+			return ;
+		if(level==k){	
+			System.out.printf("%d ",root.data);
+			return ;
+		}
+		printKBelow(root.left,level+1);
+		printKBelow(root.right,level+1);
+	}
 }
