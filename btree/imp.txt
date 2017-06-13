@@ -38,7 +38,7 @@ To find number of edges between root and a given key, just find the height of gi
 23. Print all nodes which are at a distance of k from given node. 
 
 
-31,
+17,31,36, 
 -----------------------------------------
 |Character input -> scr.next().charAt(0)|
 |Take Input of Tree                     | 
