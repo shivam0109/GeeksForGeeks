@@ -36,7 +36,7 @@ To find number of edges between root and a given key, just find the height of gi
 21. Lowest Common Ancestor. 
 22. Distance b/w two keys. 
 23. Print all nodes which are at a distance of k from given node. 
-
+24. Find closest leaf in a binary tree. 
 
 17,31,36, 
 -----------------------------------------
