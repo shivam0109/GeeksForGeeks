@@ -33,10 +33,11 @@ public class array40{
 		//Store x in last index; 
 		arr[n-1] = x;
 
-		for(i=0;i++){
+		for(i=0;;i++){
 			if(arr[i]==x){                 //n comparisions
 				if(i!=n-1)					//1 comparision 
 					System.out.println("Found");
+				break;
 			}
 		}
 	}
