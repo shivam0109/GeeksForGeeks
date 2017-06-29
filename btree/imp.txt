@@ -26,7 +26,7 @@ To find number of edges between root and a given key, just find the height of gi
 12. Find if a tree is foldable.
 13. Check if a tree is a sumtree in O(n) and constant space.
     root.data = sum(all elements in left subtree) + sum(elements in right subtree) 
-14. Connect nodes at same level. 
+14. Connect nodes at same level using O(1) space iterative and recursive. 
 15. Check if a tree is complete or not - Iterative 
 16. Construct a special tree from preorder traversal. The tree has 0/2 children. Also another array of Nodes/Leaves is given. 
 17. Vertical sum in a tree. 
@@ -37,8 +37,14 @@ To find number of edges between root and a given key, just find the height of gi
 22. Distance b/w two keys. 
 23. Print all nodes which are at a distance of k from given node. 
 24. Find closest leaf in a binary tree. 
+25. Remove all nodes that dont lie in any path with sum>=k 
+26. Reverse alternate levels of a perfect tree. 
 
-17,31,36, 
+#TO-DO
+1. Custom Tree Problem.
+2. All tree to linked list. 
+3. 
+
 -----------------------------------------
 |Character input -> scr.next().charAt(0)|
 |Take Input of Tree                     | 
