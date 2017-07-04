@@ -39,6 +39,7 @@ To find number of edges between root and a given key, just find the height of gi
 24. Find closest leaf in a binary tree. 
 25. Remove all nodes that dont lie in any path with sum>=k 
 26. Reverse alternate levels of a perfect tree. 
+27. Check if a binary tree is subtree of another binary tree in O(n) time. 
 
 #TO-DO
 1. Custom Tree Problem.
