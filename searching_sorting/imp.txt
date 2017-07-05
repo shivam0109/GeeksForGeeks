@@ -1,0 +1,2 @@
+1. Given N cards with each card numbered from 1 to N. find min number of operations movecard(n) we need to do to sort the cards. movecard(n) moves card no. n to top. 
+2. 

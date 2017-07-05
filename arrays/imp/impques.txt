@@ -61,3 +61,8 @@ Hint : See 2.
 22. Find the peak element in an array. 
 
 23. Search an element in an unsorted array using minimum number of comparisons. 
+
+24. There are N ticket sellers each of whom has a certain amount of tickets. The price of a ticket is the number of tickets remaining with the ticket seller. They want to sell a total of K tickets. We need to find the maximum amount they can earn by selling K tickets.
+
+
+
