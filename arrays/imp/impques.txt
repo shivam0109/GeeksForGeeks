@@ -64,8 +64,8 @@ Hint : See 2.
 
 24. There are N ticket sellers each of whom has a certain amount of tickets. The price of a ticket is the number of tickets remaining with the ticket seller. They want to sell a total of K tickets. We need to find the maximum amount they can earn by selling K tickets.
 
-25.Find sub-array (contiguos) with sum closest to 0.  
+25. Find sub-array (contiguos) with sum closest to 0.  
 
-
+26. Given a number n, find the smallest number that has same set of digits as n and is greater than n.
 
 

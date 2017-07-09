@@ -1,3 +1,6 @@
+Binary Search Important Problems  
+https://www.codementor.io/rishabhdaal/solving-problems-binary-search-interview-questions-du1089cq6 
+
 1. Given N cards with each card numbered from 1 to N. find min number of operations movecard(n) we need to do to sort the cards. movecard(n) moves card no. n to top. 
 2. Find min element in rotated array. (Keep in mind the boundary cases). 
 3. Relative Sorting. Given two array A1[] and A2[], sort A1 in such a way that the relative order among the elements will be same as those in A2.
