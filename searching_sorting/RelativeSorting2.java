@@ -9,6 +9,6 @@ import java.util.* ;
 
 public class RelativeSorting2{
 	static void relativeSort(ArrayList<Integer> a, ArrayList<Integer> b, int alen, int blen){
-		
-	}
+	
+		}
 }

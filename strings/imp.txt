@@ -1,0 +1,12 @@
+1. To check if two strings are equal use string1.equals(string2) 
+2. To loop through a string use :
+	String s = "random shit" ;
+	for(int i = 0; i< s.length() ; i++){
+		char c = s.chatAt(i) ;
+		//Process char
+ 	}
+ 3. To append a string use concat(). 
+ 	String s = "Strings are immutable";
+    s = s.concat(" all the time");
+ 4. To get a substring use str.substring(beginIndex,endIndex) beginIndex is inclusive and endIndex is exclusive. 
+ 5. Char to String -> String.valueOf(char) 
