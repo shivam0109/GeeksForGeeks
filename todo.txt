@@ -1,0 +1,28 @@
+DS 
+1. Graph & Graph Algos : 1 + 1 week  
+2. Tree & Heap : 1 week 
+3. String : 1 week  
+4. Matrix : 1 week 
+5. Revise LinkedList : 1/2 week 
+6. Revise Array : 1/2 week 
+
+Algo 
+1. DP from GFG and Leetcode : 2 weeks 
+2. Bit : 1 week 
+3. Backtracking : 1/2 week 
+4. Greedy  : 1 week 
+5. Searching and Sorting : 1 week 
+5. Pattern Searching : 1/2 week  
+6. If possible, mathematical algos : 1 week 
+
+
+Puzzles : Around 200 questions. 
+
+PUZZLES FROM GFG 
+50 CHALLENGING PROBLEMS IN PROBABILITY 
+HEARD ON THE STREET 
+
+
+CRACKING THE CODING INTERVIEW 
+
+OS + DBMS + OOPS : 2 weeks around November. 
