@@ -21,8 +21,9 @@ Puzzles : Around 200 questions.
 PUZZLES FROM GFG 
 50 CHALLENGING PROBLEMS IN PROBABILITY 
 HEARD ON THE STREET 
-
-
+cseblog.com : Puzzles of GS, BlackRock, JPMC
+Markov Chain
+ 
 CRACKING THE CODING INTERVIEW 
 
 OS + DBMS + OOPS : 2 weeks around November. 

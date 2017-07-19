@@ -1,5 +1,9 @@
 //DFS for a graph 
+// above code traverses only the vertices reachable from a given source vertex. 
+//All the vertices may not be reachable from a given vertex (example Disconnected graph)
 
+
+//Time : O(V+E) 
 import java.util.* ;
 import java.io.* ;
 

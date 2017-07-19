@@ -1,0 +1,8 @@
+1. BFS and DFS for disconnected graphs. 
+
+BFS :  
+minimum time required so that all the oranges become rotten. http://www.geeksforgeeks.org/minimum-time-required-so-that-all-oranges-become-rotten/
+total X-shapes. http://practice.geeksforgeeks.org/problems/x-total-shapes/0
+
+
+
