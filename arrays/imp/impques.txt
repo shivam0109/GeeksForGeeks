@@ -69,3 +69,6 @@ Hint : See 2.
 26. Given a number n, find the smallest number that has same set of digits as n and is greater than n.
 
 27. Prefix Sum Array Techniques : http://www.geeksforgeeks.org/prefix-sum-array-implementation-applications-competitive-programming/ 
+
+28. Microsoft Ques : Count distinct elements in every window of size k
+

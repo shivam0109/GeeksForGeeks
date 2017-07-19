@@ -26,3 +26,6 @@ HEARD ON THE STREET
 CRACKING THE CODING INTERVIEW 
 
 OS + DBMS + OOPS : 2 weeks around November. 
+
+Important Links :
+http://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/
