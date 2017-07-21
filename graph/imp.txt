@@ -2,7 +2,11 @@
 
 BFS :  
 minimum time required so that all the oranges become rotten. http://www.geeksforgeeks.org/minimum-time-required-so-that-all-oranges-become-rotten/
-total X-shapes. http://practice.geeksforgeeks.org/problems/x-total-shapes/0
+
+total X-shapes. http://practice.geeksforgeeks.org/problems/x-total-shapes/0 (can be done through DFS also) 
+Similar to X-shapes : Count Islands. 
+
+
 
 
 
