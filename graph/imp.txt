@@ -7,6 +7,6 @@ total X-shapes. http://practice.geeksforgeeks.org/problems/x-total-shapes/0 (can
 Similar to X-shapes : Count Islands. 
 
 
-
+Detect Cycle in a Directed Graph 
 
 
