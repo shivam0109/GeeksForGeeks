@@ -30,3 +30,43 @@ OS + DBMS + OOPS : 2 weeks around November.
 
 Important Links :
 http://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/
+
+Code on Paper: 
+
+http://www.geeksforgeeks.org/check-if-a-given-binary-tree-is-complete-tree-or-not/
+http://www.geeksforgeeks.org/counting-inversions/
+http://www.geeksforgeeks.org/construct-a-special-tree-from-given-preorder-traversal/
+http://www.geeksforgeeks.org/print-nodes-distance-k-given-node-binary-tree/
+http://www.geeksforgeeks.org/count-minimum-right-flips-to-set-all-values-in-an-array/
+http://www.geeksforgeeks.org/find-the-smallest-positive-number-missing-from-an-unsorted-array/
+http://www.geeksforgeeks.org/trapping-rain-water/
+http://www.geeksforgeeks.org/find-a-peak-in-a-given-array/
+http://www.geeksforgeeks.org/find-closest-leaf-binary-tree/
+http://www.geeksforgeeks.org/bottom-view-binary-tree/
+http://www.geeksforgeeks.org/remove-all-nodes-which-lie-on-a-path-having-sum-less-than-k/
+http://www.geeksforgeeks.org/reverse-alternate-levels-binary-tree/
+http://www.geeksforgeeks.org/find-cubic-root-of-a-number/
+http://www.geeksforgeeks.org/connect-nodes-at-same-level-with-o1-extra-space/
+http://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/
+http://www.geeksforgeeks.org/full-and-complete-binary-tree-from-given-preorder-and-postorder-traversals/
+http://www.geeksforgeeks.org/check-binary-tree-subtree-another-binary-tree-set-2/
+http://www.geeksforgeeks.org/serialize-deserialize-binary-tree/
+http://practice.geeksforgeeks.org/problems/ticket-sellers/0
+http://www.geeksforgeeks.org/vertex-cover-problem-set-2-dynamic-programming-solution-tree/
+http://www.geeksforgeeks.org/minimum-number-swaps-required-sort-array/
+http://practice.geeksforgeeks.org/problems/magnet-array-problem/0
+http://www.geeksforgeeks.org/sort-array-according-order-defined-another-array/
+http://practice.geeksforgeeks.org/problems/happiest-triplet/0
+http://practice.geeksforgeeks.org/problems/sort-the-pile-of-cards/0
+http://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages/0
+http://practice.geeksforgeeks.org/problems/replace-by-x/0
+http://practice.geeksforgeeks.org/problems/search-in-a-matrix/0
+http://practice.geeksforgeeks.org/problems/adding-ones/0
+http://www.geeksforgeeks.org/find-sub-array-sum-closest-0/
+http://www.geeksforgeeks.org/longest-common-substring/
+http://www.geeksforgeeks.org/bfs-disconnected-graph/
+http://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/
+http://practice.geeksforgeeks.org/problems/rotten-oranges/0
+http://practice.geeksforgeeks.org/problems/x-total-shapes/0
+http://www.geeksforgeeks.org/count-distinct-elements-in-every-window-of-size-k/
+http://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1

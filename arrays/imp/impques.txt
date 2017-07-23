@@ -72,3 +72,6 @@ Hint : See 2.
 
 28. Microsoft Ques : Count distinct elements in every window of size k
 
+29. Max circular subarray sum. Modification of Kadane's algo. 
+
+30. Rearrange an array s.t arr[i] = j and arr[j] = i. 

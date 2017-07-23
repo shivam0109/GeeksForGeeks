@@ -1,4 +1,4 @@
-1. BFS and DFS for disconnected graphs. 
+BFS and DFS for disconnected graphs. 
 
 BFS :  
 minimum time required so that all the oranges become rotten. http://www.geeksforgeeks.org/minimum-time-required-so-that-all-oranges-become-rotten/
@@ -6,7 +6,9 @@ minimum time required so that all the oranges become rotten. http://www.geeksfor
 total X-shapes. http://practice.geeksforgeeks.org/problems/x-total-shapes/0 (can be done through DFS also) 
 Similar to X-shapes : Count Islands. 
 
+Union Find/ Disjoint Set 
 
-Detect Cycle in a Directed Graph 
+Detect Cycle in a Directed Graph : Use DFS 
+Detect Cycle in an Undirected Graph : DFS/ Union find 
 
 
