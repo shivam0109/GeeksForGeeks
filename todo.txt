@@ -70,3 +70,8 @@ http://practice.geeksforgeeks.org/problems/rotten-oranges/0
 http://practice.geeksforgeeks.org/problems/x-total-shapes/0
 http://www.geeksforgeeks.org/count-distinct-elements-in-every-window-of-size-k/
 http://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1
+http://www.geeksforgeeks.org/union-find/
+http://www.geeksforgeeks.org/topological-sorting/
+http://practice.geeksforgeeks.org/problems/max-circular-subarray-sum/0
+
+

@@ -11,4 +11,8 @@ Union Find/ Disjoint Set
 Detect Cycle in a Directed Graph : Use DFS 
 Detect Cycle in an Undirected Graph : DFS/ Union find 
 
+Topological Sort. Difference between topological sort and dfs. 
+Topoplogical Sort : Use a stack to store the explored elements. if an element is explored, push it into the stack. 
 
+Head to tail ordering : A head to tail ordering of strings is the one in which the last letter of the previous word is the same as the first letter of the following word. 
+Alien Dictionary : http://practice.geeksforgeeks.org/problems/alien-dictionary/1
