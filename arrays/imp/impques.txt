@@ -75,3 +75,5 @@ Hint : See 2.
 29. Max circular subarray sum. Modification of Kadane's algo. 
 
 30. Rearrange an array s.t arr[i] = j and arr[j] = i. 
+
+31.Given an array consisted of both positive and negative integers. The task was to put positive and negative elements alternatively and efficiently.

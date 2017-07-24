@@ -73,5 +73,5 @@ http://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1
 http://www.geeksforgeeks.org/union-find/
 http://www.geeksforgeeks.org/topological-sorting/
 http://practice.geeksforgeeks.org/problems/max-circular-subarray-sum/0
-
+http://practice.geeksforgeeks.org/problems/head-to-tail-ordering/0 
 
