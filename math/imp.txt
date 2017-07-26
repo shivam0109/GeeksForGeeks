@@ -1,2 +1,5 @@
 construct magic square
 lexicographic rank of a string in O(n). 
+Given an array of real numbers greater than zero in form of strings.Find if there exists a triplet (a,b,c) such that 1 < a+b+c < 2 . 
+
+
