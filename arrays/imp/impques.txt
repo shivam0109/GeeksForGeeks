@@ -81,3 +81,8 @@ Hint : See 2.
 32. n-th number with digits in {0, 1, 2, 3, 4, 5} 
 
 33. Find Maximum value of abs(i – j) * min(arr[i], arr[j]) in an array arr[]
+
+34. Find duplicate in O(n) time , less than O(n) space without modifying the array. 
+    Create a temp array of O(sqrt(n)) space and do hashing. 
+
+35. Find Sum of Pairwise Hamming Distance

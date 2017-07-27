@@ -18,3 +18,8 @@ Given an array of integers where each element represents the max number of steps
 Longest Common Substring
 
 Maximum Circular Sum Subarray.
+
+Kadane's Variant : 
+Maximise number of ones in a single flip of a boolean array. 
+
+
