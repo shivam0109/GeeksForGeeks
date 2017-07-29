@@ -1,0 +1,4 @@
+Whenever long to int typecasting is needed, do 
+int temp = (int)(num%10) ; num is long. temp is int. 
+
+

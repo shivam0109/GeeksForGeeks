@@ -86,3 +86,5 @@ Hint : See 2.
     Create a temp array of O(sqrt(n)) space and do hashing. 
 
 35. Find Sum of Pairwise Hamming Distance
+
+36. Median of two sorted arrays. 
