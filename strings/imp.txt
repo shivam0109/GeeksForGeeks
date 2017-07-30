@@ -5,8 +5,12 @@
 		char c = s.chatAt(i) ;
 		//Process char
  	}
- 3. To append a string use concat(). 
+3. To append a string use concat(). 
  	String s = "Strings are immutable";
     s = s.concat(" all the time");
- 4. To get a substring use str.substring(beginIndex,endIndex) beginIndex is inclusive and endIndex is exclusive. 
- 5. Char to String -> String.valueOf(char) 
+4. To get a substring use str.substring(beginIndex,endIndex) beginIndex is inclusive and endIndex is exclusive. 
+5. Char to String -> String.valueOf(char) 
+
+Longest Common Prefix using Binary Search 
+Longest Palindrome in O(n) -> Manacher's algorithm.
+
