@@ -11,7 +11,7 @@ import java.io.* ;
 import java.util.* ;
 
 public class LongestPalindrome{
-		public String longestPal(String str){
+	public String longestPal(String str){
 		int start = 0;
 		int end = 0 ;
 		int size = str.length() ;
