@@ -11,3 +11,4 @@ https://www.codementor.io/rishabhdaal/solving-problems-binary-search-interview-q
 7. Happiest Triplet Ques
 8. Search for an element in row wise and column wise sorted matrix in O(m+n). 
 9. Sieve of Eratosthenes in O(n). Generally, it works in O(Nlg(lgn)). 
+10. Given K Painters, find min to paint an array of walls. 
