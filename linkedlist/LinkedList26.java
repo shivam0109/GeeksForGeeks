@@ -68,8 +68,8 @@ public class LinkedList26{
 				temp1.next = temp2;
 				store2 = temp2.next;
 				temp2.next = store1;
-				prev = temp2;
 				temp1 = store1;
+				prev = temp2;
 				temp2 = store2;
 			}
 			if(temp2!=null && temp1==null)
