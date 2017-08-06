@@ -19,6 +19,8 @@ Longest Common Substring
 
 Maximum Circular Sum Subarray.
 
+Ways to Decode a String 
+
 Kadane's Variant : 
 Maximise number of ones in a single flip of a boolean array. 
 

@@ -45,9 +45,9 @@ public class LBitSeq{
 		for(i=0;i<n;i++)
 			ldsdp[i] = 1;
 
-		for(i=1;i<n;i++){
-			for(j=0;j<i;j++){
-				if(arr[j]>arr[i] && ldsdp[i]<ldsdp[j]+1)
+		for(i=n-2;i>=0;i--){
+			for(j=n-1;j>i;j--){
+				if(arr[j]<arr[i] && ldsdp[i]<ldsdp[j]+1)
 					ldsdp[i] = ldsdp[j] + 1;
 			}
 		}
