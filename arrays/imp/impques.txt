@@ -14,7 +14,7 @@ c. Count number of occurences in sorted array
 d. First and last occurence of x in a sorted array. 
 e. Find max element in a bitonic array
 
-1. Find a subset of an array which is equal to a given sum. 
+1. Find a subset of an array which is equal to a given sum. Also find subarray with given sum. 
 
 2. Maximum difference between two elements such that larger element appears after the smaller number in O(n) time and O(1) space : 
    Hint : Calculate difference of adjacent elements and now the problem becomes to find max sum subarray. 
