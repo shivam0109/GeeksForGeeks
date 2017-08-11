@@ -20,7 +20,7 @@ Longest Common Substring
 Maximum Circular Sum Subarray.
 
 Fibonacci DP : 
-Ways to Decode a String 
+Ways to Decode a String : 4 if conditions. 
 
 Multiply DP : 
 Number of ways to draw 2n non intersecting lines given n points in a circle. 

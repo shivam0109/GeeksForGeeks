@@ -90,3 +90,5 @@ Hint : See 2.
 36. Median of two sorted arrays. 
 
 37. Find all unique combos of 3 numbers which sum to a target value in an array. 
+
+38. Find all subarrays of given sum for both negative and non-negative numbers in an array. 
