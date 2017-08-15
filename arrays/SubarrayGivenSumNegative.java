@@ -3,7 +3,7 @@ Given an array of integers and an integer k, you need to find the total number o
 
 If sum taken from 0th index to i = a and j = b.
 If b-a = k => we are done or b-k = a => we are done. 
-Thus we use hashmap to store the previous sums.  
+Thus we use hashmap to store the previous sums. 		 
 */
 
 import java.io.* ;
