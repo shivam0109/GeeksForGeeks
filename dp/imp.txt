@@ -19,6 +19,8 @@ Longest Common Substring
 
 Maximum Circular Sum Subarray.
 
+Combination Sum : Print All Subsets of the array which sum to a given value. 
+
 Fibonacci DP : 
 Ways to Decode a String : 4 if conditions. 
 Paint Fence such that no two have adjacent colors. 
@@ -30,7 +32,10 @@ Min Jumps to reach end in O(n) time.  : Greedy Approach
 
 Kadane's Variant : 
 Maximise number of ones in a single flip of a boolean array. 
+Max Produxt Subarray. 
 
 Fill 2D Table from bottom right to top left : 
 Longest Arithematic Progression. 
 
+A general approach to backtracking questions (Subsets, Permutations, Combination Sum, Palindrome Partitioning)
+https://leetcode.com/problems/combination-sum/discuss/

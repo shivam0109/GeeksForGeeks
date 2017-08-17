@@ -4,34 +4,32 @@ Given an array of integers and an integer k, you need to find the total number o
 If sum taken from 0th index to i = a and j = b.
 If b-a = k => we are done or b-k = a => we are done. 
 Thus we use hashmap to store the previous sums. 		 
+
 */
 
 import java.io.* ;
 import java.util.* ;
 
 public class SubarrayGivenSumNegative{
-	public int subarraySum(int[] nums, int k) {
+    public int subarraySum(int[] nums, int k){
         int n = nums.length ;
-        int count = 0 ; 
+        if(n==0)
+            return 0 ;
+        if(n==1 && nums[0]!=k)
+            return 0 ;
+        if(n==1 && nums[0]==k)
+            return 1 ; 
         HashMap<Integer,Integer> map = new HashMap<Integer,Integer>() ;
+        int currSum = 0 ;
         int i ;
-        int sum = 0;
-        map.put(0,0) ;
+        int count = 0 ;
+        map.put(0,1) ; 
         for(i=0;i<n;i++){
-            sum += nums[i] ;
-            if(map.containsKey(sum-k)){
-                map.put(sum-k,map.get(sum-k)+1) ;
+            currSum += nums[i] ; 
+            if(map.containsKey(currSum-k)){
+                count += map.get(currSum-k) ;
             }
-            if(!map.containsKey(sum))
-                map.put(sum,0) ; 
-        }
-        Set keyset = map.keySet() ;
-        Iterator<Integer> iter = keyset.iterator() ;
-        while(iter.hasNext()){
-            int x = iter.next() ;
-            int val = map.get(x) ;
-            System.out.println(val) ; 
-            count += (val*(val+1))/2 ;
+            map.put(currSum,map.getOrDefault(currSum,0)+1) ;  
         }
         return count ; 
     }
@@ -41,7 +39,7 @@ public class SubarrayGivenSumNegative{
     	while(ntest-- > 0){
     		int n = scr.nextInt() ;
     		int arr[] = new int[n] ;
-    		int k = scr.nextInt() ;
+            int k = scr.nextInt() ;
     		SubarrayGivenSumNegative sgiven = new SubarrayGivenSumNegative() ;
     		int i;
     		for(i=0;i<n;i++)
