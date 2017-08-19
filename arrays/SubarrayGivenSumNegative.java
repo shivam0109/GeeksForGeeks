@@ -5,6 +5,11 @@ If sum taken from 0th index to i = a and j = b.
 If b-a = k => we are done or b-k = a => we are done. 
 Thus we use hashmap to store the previous sums. 		 
 
+store the data in the form: (sum_i, no. of occurences of sum_i).
+If the same sum occurs again, we increment the count corresponding to that sum in the hashmap. 
+Further, for every sum encountered, we also determine the number of times the sum-k has occured already, 
+since it will determine the number of times a subarray with sum k has occured upto the current index. 
+We increment the countcount by the same amount.
 */
 
 import java.io.* ;

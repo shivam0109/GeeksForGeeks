@@ -37,5 +37,8 @@ Max Produxt Subarray.
 Fill 2D Table from bottom right to top left : 
 Longest Arithematic Progression. 
 
+Fill 2D Table diagonally. 
+Word Break Problem. 
+
 A general approach to backtracking questions (Subsets, Permutations, Combination Sum, Palindrome Partitioning)
 https://leetcode.com/problems/combination-sum/discuss/
