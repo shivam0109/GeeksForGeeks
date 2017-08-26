@@ -43,5 +43,8 @@ Word Break Problem.
 DP in DP : 
 Stock Buy Sell K. Time : O(nk) Space : O(k) 
 
+LIS Approach :
+Integer Break : O(n2) DP soultion. Also, implement O(lgn) solution. 
+
 A general approach to backtracking questions (Subsets, Permutations, Combination Sum, Palindrome Partitioning)
 https://leetcode.com/problems/combination-sum/discuss/

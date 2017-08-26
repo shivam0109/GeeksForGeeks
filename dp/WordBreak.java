@@ -7,6 +7,9 @@ find out if the input string can be segmented into a space-separated sequence of
 Key Concept : If we can make substring i,k and k+1,j from dictionary, we can make i,j from dictionary. 
 Base Case : To see if i,i is in the dictionary or not. 
 Fill the matrix diagonally. 
+First, we check if substrings of length 1 are present in dictionary and fill the diagonal accordingly. 
+Then, a substring of length 2 can be made from dictionary iff that substring exists in the dictionary or 
+substrings of 1 and 1 which form the substring of size 2 are marked as true.  
 */
 import java.io.* ;
 import java.util.* ;
