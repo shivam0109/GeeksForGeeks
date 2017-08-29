@@ -16,6 +16,7 @@ b. Return elements just smaller and just bigger in array
 c. Count number of occurences in sorted array
 d. First and last occurence of x in a sorted array. 
 e. Find max element in a bitonic array
+f. Find Peak Element in an array. 
 
 1. Find a subset of an array which is equal to a given sum. Also find subarray with given sum. 
 
@@ -99,3 +100,5 @@ Hint : See 2.
 39. Find if there exists a subarray whose sum mod k = 0 in O(n) time and O(k) space. Use hashmap to store the index-sum. 
 
 40. Remove a given element from array without using extra space in one pass. : 
+
+41. Next Permutation. 
