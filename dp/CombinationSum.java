@@ -15,6 +15,8 @@ import java.util.* ;
 
 public class CombinationSum{
 	static List<List<Integer>> arrlist = new ArrayList<List<Integer>>() ;
+	static HashMap<ArrayList<Integer>,Integer> map = new HashMap<ArrayList<Integer>,Integer>() ;
+	static int count = 0 ;
 	public void printMatrix(boolean mat[][], int m, int n){
 		int i,j ;
 		for(i=0;i<m;i++){
@@ -27,45 +29,49 @@ public class CombinationSum{
 	public void display(List<Integer> v){
        System.out.println(v);
     }
-	public void printPath(int arr[], int i, boolean dp[][], int sum, List<Integer> p){
-		if(i==0){
-			if(sum==0){
-				display(p) ; 
-				p.clear() ; 
-				return ;
-			}
-			if(arr[i]==sum && dp[0][sum]){
-				p.add(arr[i]) ;
-				arrlist.add(p) ;
-				p.clear() ; 
-				return ;  
-			}
-			if(arr[i]!=sum && dp[0][sum]){
-				p.add(arr[i]) ;
-				printPath(arr,i,dp,sum-arr[i],p) ; 
-			}
+    public void display2(List<List<Integer>> list){
+    	System.out.println(list) ; 
+    }
+	public void printPath(int arr[], boolean mat[][], int sum, ArrayList<Integer> list, int i, int j){
+		System.out.println("i: " + i + " j: " + j) ; 
+		if(sum==0){
+			display(list) ;
+			if(!map.containsKey(list)){
+				ArrayList<Integer> list2 = new ArrayList<Integer>(list) ; 
+				map.put(list2,1);
+			} 
+			list.clear() ; 
+			return ; 	
 		}
-
-		if(i-1>=0 && dp[i-1][sum]){
-			printPath(arr,i-1,dp,sum,p) ;
+		if(i==0 && mat[i][j]){
+			list.add(arr[0]) ;
+			printPath(arr,mat,sum-arr[i],list,0,j-arr[i]) ;  
 		}
-
-		if(i-1>=0 && sum-arr[i]>=0 && dp[i-1][sum-arr[i]]){
-			p.add(arr[i]) ;
-			printPath(arr,i-1,dp,sum-arr[i],p) ;  
+		if(i>=1 && mat[i-1][j]){
+			ArrayList<Integer> p = new ArrayList<Integer>(list) ; 
+			printPath(arr,mat,sum,p,i-1,j) ; 
 		}
-
-		if(sum-arr[i]>=0 && dp[i][sum-arr[i]]){
-			p.add(arr[i]) ;
-			printPath(arr,i,dp,sum-arr[i],p) ; 
+		if(i>=1 && j>=arr[i] && mat[i-1][j-arr[i]]){
+			ArrayList<Integer> q = new ArrayList<Integer>(list) ;
+			q.add(arr[i]) ;
+			printPath(arr,mat,sum-arr[i],q,i-1,j-arr[i]) ;
 		}
+		if(i>=1 && j>=arr[i] && mat[i][j-arr[i]] && j-arr[i]>=arr[i]){
+			ArrayList<Integer> r = new ArrayList<Integer>(list) ;
+			r.add(arr[i]) ;
+			printPath(arr,mat,sum-arr[i],r,i,j-arr[i]) ; 
+		}
+		if(i>=1 && j>=arr[i] && mat[i][j-arr[i]] && j-arr[i]>=arr[i] && (j-arr[i])%arr[i]==0){
+			ArrayList<Integer> s = new ArrayList<Integer>(list) ;
+			s.add(arr[i]) ;
+			printPath(arr,mat,sum-arr[i],s,i,j-arr[i]) ; 
+		} 	
 	}
-
 	public void combinationSum(int arr[], int target){
 		int n = arr.length ;
 		boolean dp[][] = new boolean[n][target+1] ; 
 		int i,j ;
-		
+		Arrays.sort(arr) ; 
 		//fill first column. 
 		for(i=0;i<n;i++)
 			dp[i][0] = true;
@@ -95,7 +101,16 @@ public class CombinationSum{
 
 		printMatrix(dp,n,target+1) ;
 		ArrayList<Integer> p = new ArrayList<Integer>() ;
-		printPath(arr,n-1,dp,target,p) ;
+		printPath(arr,dp,target,p,n-1,target) ;
+		
+		Set keyset = map.keySet() ;
+		//System.out.println(keyset) ; 
+		Iterator<ArrayList<Integer>> iter = keyset.iterator() ; 
+		while(iter.hasNext()){
+			ArrayList<Integer> l = iter.next() ;
+			//display(l) ;
+			arrlist.add(l) ; 
+		} 
 		//return arrlist ;  
 	}
 	
@@ -111,9 +126,8 @@ public class CombinationSum{
 			int k = scr.nextInt() ;
 			CombinationSum csum = new CombinationSum() ;
 			csum.combinationSum(arr,k) ;
-			for(i=0;i<arrlist.size();i++){
-				System.out.println(arrlist.get(i)) ; 
-			}		
+			System.out.println(arrlist) ; 		
+			//System.out.println(i) ; 
 		}
 	}
 }

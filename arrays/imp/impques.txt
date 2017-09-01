@@ -102,3 +102,5 @@ Hint : See 2.
 40. Remove a given element from array without using extra space in one pass. : 
 
 41. Next Permutation. 
+
+42. Almost Duplicate. 
