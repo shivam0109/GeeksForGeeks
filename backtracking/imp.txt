@@ -1,0 +1,15 @@
+Important Approach to Backtracking: 
+
+Call backtrack as a utility function. 
+
+public void backtrack(args){
+	write base cases
+	else{
+		for(int i=start; i<n; i++){
+			do something to modify list
+			backtrack(modified args)
+			remove the most recent element from the list. 
+		}
+	}
+
+}

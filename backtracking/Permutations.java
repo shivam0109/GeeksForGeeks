@@ -22,22 +22,19 @@ public class Permutations{
     	list.set(j,temp) ; 
     }
 
-    public void printArray(int[] arr, int n){
-    	for(int i=0;i<n;i++)
-    		System.out.printf("%d ",arr[i]) ; 
-    	System.out.printf("\n") ; 
-    }
-
     public void backtrack(List<List<Integer>> arrlist, List<Integer> list, int n, int start){       			
-		for(int i=start; i<n-1; i++){
-			for(int j=start+1;j<n;j++){
-				swap(list,i,j) ;
-				backtrack(arrlist,list,n,i+1) ;
-				System.out.println(list) ; 
-				arrlist.add(list) ; 
-				swap(list,i,j) ; 
-			}
-		}		
+		if(start==n-1){
+            System.out.println(list) ;
+            List<Integer> list2 = new ArrayList<Integer>(list) ;  
+            arrlist.add(list2) ; 
+        }
+        else{
+            for(int i=start;i<n;i++){
+                swap(list,start,i) ;
+                backtrack(arrlist,list,n,start+1) ;
+                swap(list,start,i) ;  
+            }
+        }		
     }
 
     public static void main(String[] args){
