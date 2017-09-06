@@ -50,3 +50,5 @@ A general approach to backtracking questions (Subsets, Permutations, Combination
 https://leetcode.com/problems/combination-sum/discuss/
 
 Print All Subsets using DFS. 
+
+Combination Sum 4: Find the number of permutations(different order is treated as diff ans) to make a given target. No need for backtracking as only number is required. 

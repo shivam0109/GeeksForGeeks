@@ -1,5 +1,10 @@
 /*
 Given a collection of numbers that might contain duplicates, return all possible unique permutations.
+
+Use an extra boolean array " boolean[] used" to indicate whether the value is added to list.
+Sort the array "int[] nums" to make sure we can skip the same value.
+when a number has the same value with its previous, we can use this number only if his previous is used
+
 */
 
 import java.io.* ;
@@ -7,58 +12,48 @@ import java.util.* ;
 
 public class Permutations3{
 	public List<List<Integer>> permuteUnique(int[] nums) {
-		HashMap<Integer,Integer> map = new HashMap<Integer,Integer>() ;
-		int i ;
 		int n = nums.length ;
-		for(i=0;i<n;i++){
-			if(map.containsKey(nums[i]))
-				map.put(nums[i],map.get(nums[i])+1) ; 
-			else
-				map.put(nums[i],1) ; 
-		}
-		List<List<Integer>> arrlist = new ArrayList<List<Integer>>() ;
+		int i ;
+		if(n==0)
+			return new ArrayList<List<Integer>>() ;
+		Arrays.sort(nums) ; 
+		boolean used[] = new boolean[n] ; 
+		List<List<Integer>> arrlist = new ArrayList<List<Integer>>() ; 
 		List<Integer> list = new ArrayList<Integer>() ;
-		HashMap<List<Integer>,Integer> listMap = new HashMap<List<Integer>,Integer>() ;
-		backtrack(map,listMap,list,n,nums) ;
-		Iterator<List<Integer>> iter = listMap.keySet().iterator() ; 
-		while(iter.hasNext())
-			arrlist.add(iter.next()) ; 
-		return arrlist ; 
+        backtrack(arrlist,list,n,nums,used) ; 
+		return arrlist ;
     }
-    public void backtrack(HashMap<Integer,Integer> map,HashMap<List<Integer>,Integer> listMap, List<Integer> list, int n, int[] nums){
-    	int i ;
-    	//System.out.println(list); 
+    public void backtrack(List<List<Integer>> arrlist, List<Integer> list, int n, int nums[], boolean[] used){
     	if(list.size()==n){
-    		List<Integer> list2 = new ArrayList<Integer>(list) ;
-    		if(!listMap.containsKey(list2))
-    			listMap.put(list2,1) ;  
+    		List<Integer> list2 = new ArrayList<Integer>(list) ; 
+    		arrlist.add(list2) ; 
     	}
     	else{
-	    	for(i=0;i<n;i++){
-	    		//System.out.println("i: "+ i) ;	 
-	    		if(map.get(nums[i])==0)
-	    			continue ; 
-	    		list.add(nums[i]) ;
-	    		map.put(nums[i],map.get(nums[i])-1) ;  
-	    		backtrack(map,listMap,list,n,nums) ;
-	    		list.remove(list.size()-1) ; 
-	    		map.put(nums[i],map.get(nums[i])+1) ; 
-	     	}
-	    }
+    		for(int i=0; i<n ; i++){
+                if(used[i])
+                    continue ; 
+    			if(i>=1 && nums[i-1]==nums[i] && !used[i-1])
+    				continue ; 
+    			used[i] = true ;
+                list.add(nums[i]) ; 
+    			backtrack(arrlist,list,n,nums,used) ; 
+    			used[i] = false ; 
+                list.remove(list.size()-1) ; 
+    		}
+    	}
     }
     public static void main(String[] args){
     	Scanner scr = new Scanner(System.in) ;
     	int ntest = scr.nextInt() ;
-    	while(ntest-- > 0){
+    	while(ntest-->0){
     		int n = scr.nextInt() ;
-    		int arr[] = new int[n] ;
+    		int arr[] = new int[n] ; 
     		for(int i=0; i<n ;i++)
     			arr[i] = scr.nextInt() ;
     		Permutations3 p = new Permutations3() ;
-    		List<List<Integer>> arrlist = new ArrayList<List<Integer>>() ;
+    		List<List<Integer>> arrlist = new ArrayList<List<Integer>>() ; 
     		arrlist = p.permuteUnique(arr) ; 
-    		System.out.println(p.permuteUnique(arr)) ;
-    		System.out.println(arrlist.size()) ; 
+    		System.out.println(arrlist) ; 
     	}
     }
 }
