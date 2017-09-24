@@ -1,1 +1,9 @@
 https://discuss.leetcode.com/topic/11877/detailed-explanation-and-generalization-of-the-bitwise-operation-method-for-single-numbers
+
+Calculate XOR from 1 to n.
+Given a number n, the task is to find the XOR from 1 to n.
+1- Find the remainder of n by moduling it with 4.
+2- If rem = 0, then xor will be same as n.
+3- If rem = 1, then xor will be 1.
+4- If rem = 2, then xor will be n+1.
+5- If rem = 3 ,then xor will be 0.

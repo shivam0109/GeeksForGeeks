@@ -104,3 +104,18 @@ Hint : See 2.
 41. Next Permutation. 
 
 42. Almost Duplicate. 
+
+43. Given an array arr[], find the maximum j – i such that arr[j] > arr[i]
+
+44. Spiral Order Traversal and Storage. 
+
+45. Moore's Voting Algorithm. 
+
+46. Find all elements in an array which repeat more than n/k times. Extension of Moore's Voting Algorithm. The number of such elements can never be more than k-1. Create a data structure which stores the potential candidates at each step. If a new element is encountered, decrease the count of each element by 1. Remove elements from the ds which have count=0 and ignore the current element. This step is like Moore's Voting Algorithm. 
+
+47. Largest Subarray with 0 sum. Extension : Largest subarray with equal number of zeros and ones. 
+
+48. Maximum Consecutive Gap. Given an unsorted array, find the maximum difference between the successive elements in its sorted form.
+	Try to solve it in linear time/space.
+
+49. Maximum Unsorted Subarray. Find the minimum sub array Al, Al+1 ,…, Ar so if we sort(in ascending order) that sub array, then the 	 whole array should get sorted.
