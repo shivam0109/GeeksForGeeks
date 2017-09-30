@@ -33,7 +33,8 @@ public class PaintFence{
         	long d = (long)((k-1)%m) ;
         	dp[i] = (long)((c*d)%m) ;
         }
-        //dp[i] = (dp[i-2]+dp[i-1])*(k-1) ; 
+        //dp[i] = (dp[i-2]+
+        .dp[i-1])*(k-1) ; 
         return (int)(dp[n-1]) ;
     }
 	public static void main (String[] args) {

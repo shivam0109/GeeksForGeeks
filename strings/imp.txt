@@ -10,7 +10,12 @@
     s = s.concat(" all the time");
 4. To get a substring use str.substring(beginIndex,endIndex) beginIndex is inclusive and endIndex is exclusive. 
 5. Char to String -> String.valueOf(char) 
+6. Trim (Remove leading and trailing spaces) a string : str = str.trim() 
+7. Remove spaces in between words : str = str.replaceAll("\\s+","") ; 
+8. Take only alphanumeric char : str = str.replaceAll("[^A-Za-z0-9]","") ; [] checks for pattern. ^ in square negates the pattern. 
+9. To lower case : str = str.toLowerCase(str) ;
 
+Regular Expressions : http://www.vogella.com/tutorials/JavaRegularExpressions/article.html
 Longest Common Prefix using Binary Search 
 Longest Palindrome in O(n) -> Manacher's algorithm.
 
