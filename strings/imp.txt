@@ -14,7 +14,10 @@
 7. Remove spaces in between words : str = str.replaceAll("\\s+","") ; 
 8. Take only alphanumeric char : str = str.replaceAll("[^A-Za-z0-9]","") ; [] checks for pattern. ^ in square negates the pattern. 
 9. To lower case : str = str.toLowerCase(str) ;
-
+10. KMP and Robin Karp for pattern matching. 
+11. Manacher's Algorithm for Palindromic Substring.
+12. String split : String[] arr = str.split(regex). For splitting on spaces, use str.split("\\s") ;
+	 
 Regular Expressions : http://www.vogella.com/tutorials/JavaRegularExpressions/article.html
 Longest Common Prefix using Binary Search 
 Longest Palindrome in O(n) -> Manacher's algorithm.
