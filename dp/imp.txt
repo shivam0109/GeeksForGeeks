@@ -24,6 +24,7 @@ Combination Sum : Print All Subsets of the array which sum to a given value.
 Fibonacci DP : 
 Ways to Decode a String : 4 if conditions. 
 Paint Fence such that no two have adjacent colors. 
+Count number of ways to pair friends. 
 
 Multiply DP : 
 Number of ways to draw 2n non intersecting lines given n points in a circle. 

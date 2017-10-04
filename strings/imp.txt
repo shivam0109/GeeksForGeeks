@@ -18,6 +18,8 @@
 11. Manacher's Algorithm for Palindromic Substring.
 12. String split : String[] arr = str.split(regex). For splitting on spaces, use str.split("\\s"). Escape special characters used for 	regex. Use // to escape spl chars. https://stackoverflow.com/questions/3481828/how-to-split-a-string-in-java. 
 13. Compare Version Numbers. 
+14. To convert String to number : do Integer.valueOf(str.charAt(i))-48 ; 
+15. Multiply Two Strings. Dont use brute force. 
 
 Regular Expressions : http://www.vogella.com/tutorials/JavaRegularExpressions/article.html
 Longest Common Prefix using Binary Search 
