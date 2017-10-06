@@ -25,6 +25,8 @@ Fibonacci DP :
 Ways to Decode a String : 4 if conditions. 
 Paint Fence such that no two have adjacent colors. 
 Count number of ways to pair friends. 
+Number of ways to partition a set : Bell Numbers. If a no. is single, add dp[n-1], if paired with one, n-1C1*dp[n-2], if paired with 2, n-1C2*dp[n-3] and so on. 
+
 
 Multiply DP : 
 Number of ways to draw 2n non intersecting lines given n points in a circle. 
@@ -41,6 +43,11 @@ Longest Arithematic Progression.
 Fill 2D Table diagonally. 
 Word Break Problem. 
 Optimal Game Strategy. 
+
+
+Partition Problems
+Number of ways to partition a set into k subsets. f(n,k) = f(n-1,k-1) + kf(n-1,k). First term comes from the fact that the new number stays single. The second term comes when the new number is sent to any of the k partitions. 
+Number of ways to partition a given set. Bell Numbers. 
 
 DP in DP : 
 Stock Buy Sell K. Time : O(nk) Space : O(k) 
@@ -62,4 +69,4 @@ Cutting Rod : There is a rod of length N lying on x-axis with its left end at x 
 There are N coins (Assume N is even) in a line. Two players take turns to take a coin from one of the ends of the line until there are no more coins left. The player with the larger amount of money wins. Assume that you go first.
 Write a program which computes the maximum amount of money you can win.
 
-
+nCr = n-1Cr-1 + n-1Cr 

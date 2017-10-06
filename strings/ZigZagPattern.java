@@ -103,9 +103,10 @@ public class ZigZagPattern{
 	public static void main(String[] args){
 		Scanner scr = new Scanner(System.in) ;
 		int ntest = scr.nextInt() ;
+        scr.nextLine() ;
 		while(ntest-- >0){
 			ZigZagPattern zigzag = new ZigZagPattern() ;
-			String str = scr.next() ;
+			String str = scr.nextLine() ;
 			int numRows = scr.nextInt() ;
 			String ans = zigzag.convert(str,numRows) ;
 			System.out.println(ans) ; 
