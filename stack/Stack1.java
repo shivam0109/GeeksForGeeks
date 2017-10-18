@@ -14,7 +14,7 @@ public class Stack1{
 	Stack1(){
 		top = -1;
 	}
-
+	
 	boolean isEmpty(){
 		return (top<0);
 	}
