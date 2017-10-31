@@ -70,3 +70,7 @@ There are N coins (Assume N is even) in a line. Two players take turns to take a
 Write a program which computes the maximum amount of money you can win.
 
 nCr = n-1Cr-1 + n-1Cr 
+
+Optimal Game Strategy
+
+Maximum area of rectangle with permutations. 

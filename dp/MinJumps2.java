@@ -16,6 +16,7 @@ currEnd -> used to see if maxReach has been reached
 if at an index i, if maxReach <= i => we cannot go further. return -1. 
 every time i reaches currEnd check if it is possible to move further, if yes, update currEnd to maxReach. 
 */
+
 import java.io.* ;
 import java.util.* ;
 
