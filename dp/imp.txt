@@ -74,3 +74,11 @@ nCr = n-1Cr-1 + n-1Cr
 Optimal Game Strategy
 
 Maximum area of rectangle with permutations. 
+
+Partition into clusters to minimize a given cost function. 
+
+Palindrome Partitioning. 
+
+Matrix Chain Multiplication
+
+Max Value of an expression
